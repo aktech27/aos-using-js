@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="icon"
+      href="https://drive.google.com/uc?export=view&id=13_eB0Z2Uuxktxz_KBekWaCjoRWEQjYSG"
+    />
+    <title>Appear on Scroll</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <section class="flex-cc">
+      <svg height="100vh" width="100vw">
+        <text id="svg-text" x="50%" y="50%" text-anchor="middle">A O S</text>
+      </svg>
+    </section>
+    <section class="flex-cc">
+      <h1
+        id="text-example"
+        class="aos"
+        data-aos-time="1s"
+        data-aos-type="vertical"
+        data-aos-value="100px"
+      >
+        Example-Only Text
+      </h1>
+    </section>
+    <section class="flex-cc">
+      <img
+        id="img-example"
+        src="http://source.unsplash.com/random/200x200/?pet"
+        alt="sample-img"
+        data-aos-time="1s"
+        data-aos-type="horizantal"
+        data-aos-value="-100px"
+        class="aos"
+      />
+    </section>
+    <section class="flex-cc">
+      <div
+        id="box"
+        data-aos-time="1s"
+        data-aos-type="horizantal"
+        data-aos-value="200px"
+        class="flex-cc aos"
+      >
+        Example-Simple Div
+      </div>
+    </section>
+    <section class="flex-cc">
+      <div
+        data-aos-time="1s"
+        data-aos-type="vertical"
+        data-aos-value="300px"
+        class="flex-cc card aos"
+      >
+        <div class="card-image-container">
+          <img src="http://source.unsplash.com/random/?pet" alt="card-image" />
+        </div>
+        <div class="card-caption">
+          <h2>Example</h2>
+          <h4>Simple Card with an image</h4>
+        </div>
+      </div>
+    </section>
+    <section class="flex-cc">
+      <div
+        data-aos-time="2s"
+        data-aos-type="vertical"
+        data-aos-value="200px"
+        class="flex-cc card aos"
+      >
+        <div
+          data-aos-time="2s"
+          data-aos-type="horizantal"
+          data-aos-value="50px"
+          class="card-image-container aos horizantal-from-right delay-1"
+        >
+          <img src="http://source.unsplash.com/random/?pet" alt="card-image" />
+        </div>
+        <div class="card-caption">
+          <h2
+            data-aos-time="2s"
+            data-aos-type="vertical"
+            data-aos-value="-20px"
+            class="aos "
+          >
+            Example-Card
+          </h2>
+          <h4
+            cdata-aos-time="2s"
+            data-aos-type="vertical"
+            data-aos-value="30px"
+            lass="aos"
+          >
+            All elements are transitioned
+          </h4>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
