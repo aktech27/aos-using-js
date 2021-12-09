@@ -10,7 +10,7 @@ The AOS on this example is done mostly with vanilla JS, hence most of the values
 
 ## Demo
 
-To view the live preview of the example, [Click Here](https://www.github.com/aktech27/aos-using-js)
+To view the live preview of the example, [Click Here](https://aktech27.github.io/aos-using-js)
 
 ## Appendix
 
